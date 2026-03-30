@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B1244"/>
+      <stop offset="1" stop-color="#12041D"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="18" y1="16" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BFFF5"/>
+      <stop offset="1" stop-color="#58D9FF"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="24" y1="18" x2="38" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBFF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#F5FBFF" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="url(#bg)"/>
+  <rect x="4" y="4" width="56" height="56" rx="12" stroke="#3A1D5B" stroke-width="2"/>
+
+  <circle cx="31" cy="34" r="16" fill="url(#coin)"/>
+  <circle cx="31" cy="34" r="16" stroke="#041116" stroke-width="2.5"/>
+  <circle cx="31" cy="34" r="10" stroke="#041116" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M24 23.5c3-3 9-4 14-1.5" stroke="url(#shine)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M31 27v14" stroke="#041116" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M26 30.5h10.5" stroke="#041116" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M25.5 37.5H36" stroke="#041116" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M47 12h4v4h4v4h-4v4h-4v-4h-4v-4h4z" fill="#FF79DA"/>
+  <path d="M10 46h3v3h3v3h-3v3h-3v-3H7v-3h3z" fill="#D8FFE8" opacity=".85"/>
+</svg>
